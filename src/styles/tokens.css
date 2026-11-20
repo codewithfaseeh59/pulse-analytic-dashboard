@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light;
+
+  --color-bg: #f5f6f8;
+  --color-surface: #ffffff;
+  --color-surface-muted: #eef0f4;
+  --color-border: #d9dde5;
+  --color-text: #151a23;
+  --color-text-muted: #4a5568;
+  --color-accent: #1d4ed8;
+  --color-accent-contrast: #ffffff;
+  --color-positive: #0f7a43;
+  --color-negative: #b42318;
+  --color-warning: #8a5a00;
+  --color-focus: #1d4ed8;
+  --color-grid: #e3e6ec;
+
+  --chart-1: #0072b2;
+  --chart-2: #e69f00;
+  --chart-3: #009e73;
+  --chart-4: #cc79a7;
+  --chart-5: #56b4e9;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.75rem;
+
+  --shadow-card: 0 1px 2px rgb(16 24 40 / 6%);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --color-bg: #0e1117;
+  --color-surface: #171b24;
+  --color-surface-muted: #1f2430;
+  --color-border: #2c3341;
+  --color-text: #eef1f6;
+  --color-text-muted: #a8b1c2;
+  --color-accent: #6ea0ff;
+  --color-accent-contrast: #0b1020;
+  --color-positive: #4cd08a;
+  --color-negative: #ff8a80;
+  --color-warning: #f0b84a;
+  --color-focus: #8ab4ff;
+  --color-grid: #272d3a;
+
+  --chart-1: #3aa0e0;
+  --chart-2: #f0b030;
+  --chart-3: #20c090;
+  --chart-4: #e090c0;
+  --chart-5: #7cc8f5;
+
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 40%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+
+    --color-bg: #0e1117;
+    --color-surface: #171b24;
+    --color-surface-muted: #1f2430;
+    --color-border: #2c3341;
+    --color-text: #eef1f6;
+    --color-text-muted: #a8b1c2;
+    --color-accent: #6ea0ff;
+    --color-accent-contrast: #0b1020;
+    --color-positive: #4cd08a;
+    --color-negative: #ff8a80;
+    --color-warning: #f0b84a;
+    --color-focus: #8ab4ff;
+    --color-grid: #272d3a;
+
+    --chart-1: #3aa0e0;
+    --chart-2: #f0b030;
+    --chart-3: #20c090;
+    --chart-4: #e090c0;
+    --chart-5: #7cc8f5;
+
+    --shadow-card: 0 1px 2px rgb(0 0 0 / 40%);
+  }
+}
