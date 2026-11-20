@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/codewithfaseeh59/pulse-analytic-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/codewithfaseeh59/pulse-analytic-dashboard/actions/workflows/ci.yml)
 
+**Live demo: [pulse-analytic-dashboard.vercel.app](https://pulse-analytic-dashboard.vercel.app/)**
+
 A responsive SaaS analytics dashboard built with React and TypeScript. Every chart is hand-built SVG, with no chart library. The data is generated from a seed, so there is no backend and the numbers are the same on every visit.
 
 ![Pulse Analytics in light mode](docs/dashboard-light.png)
